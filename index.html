@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>random number guess</title>
+  </head>
+  <body>
+    <div class="guessContainer">
+      <div id="cover">
+        <h1 id="title">Guess the random number</h1>
+      </div>
+      <form id="guessForm">
+        <label for="number" id="label">Enter a number between 1 and 100</label
+        ><br />
+        <div id="inputGroup">
+          <input type="number" min="1" max="100" id="number" />
+          <button type="submit" id="guessBtn">Guess!</button>
+        </div>
+      </form>
+      <div id="result"></div>
+      <div id="message"></div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,82 @@
+body {
+  font-family: "Poppins";
+  letter-spacing: 0.03em;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 0;
+  padding: 0;
+}
+.guessContainer {
+  text-align: center;
+}
+
+#title {
+  margin-top: 40px;
+  font-size: 120px;
+  color: hsl(313, 98%, 33%);
+}
+#guessForm {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+#inputGroup {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 180px;
+}
+#label {
+  flex: 0 1 auto;
+  font-size: 40px;
+  color: hsl(342, 100%, 40%);
+  margin: 30px;
+}
+#number {
+  text-align: center;
+  color: hsl(342, 100%, 60%);
+  width: 50%;
+  font-size: 36px;
+  border: 2px solid hsl(342, 100%, 60%);
+  border-radius: 4px;
+  margin-bottom: 15px;
+  outline: 0;
+  margin-right: 10px;
+  flex: 0 1 80%;
+}
+
+#guessBtn {
+  margin-top: 15px;
+  background-color: hsl(342, 100%, 60%);
+  font-size: 25px;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  color: white;
+  cursor: pointer;
+  flex: 0 1 20%;
+}
+#guessBtn:hover {
+  background-color: hsl(342, 100%, 50%);
+}
+#message {
+  height: 36px;
+  font-size: 24px;
+  color: hsl(342, 100%, 40%);
+}
+#cover {
+  border: 0.5px solid rgba(248, 38, 38, 0.871);
+  text-align: center;
+  background-image: url(./istockphoto-178895760-1024x1024.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
